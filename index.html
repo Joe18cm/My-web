@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фронтенд Разработка - Услуги</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animate__animated animate__fadeIn">Ваш персональный фронтенд-разработчик</h1>
+            <p class="animate__animated animate__backInUp">Качественная и эффективная разработка пользовательских
+                интерфейсов</p>
+        </div>
+        <img class="fuzzy-border" src="img/foto1.png" alt="foto1">
+
+    </header>
+
+
+    <div class="text-typing">
+        <span id="typed"></span>
+    </div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#testimonials">Отзывы</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <div class="container">
+            <h2>Услуги</h2>
+            <div class="service-item">
+                <h3>Разработка пользовательского интерфейса</h3>
+                <p>Создание удобных и современных интерфейсов с использованием передовых технологий.</p>
+            </div>
+            <div class="service-item">
+                <h3>Оптимизация производительности</h3>
+                <p>Повышение скорости загрузки и оптимизация работы вашего сайта.</p>
+            </div>
+            <div class="service-item">
+                <h3>Адаптивная верстка</h3>
+                <p>Сайты, которые отлично выглядят и работают на всех устройствах.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container ">
+            <h2>Обо мне</h2>
+            <div class="about_content">
+                <div class="box-left">
+                    <img class="about__img" src="img/me.png" alt="Foto">
+                </div>
+                <div class="box-right">
+                    
+                    <p>По образованию я инженер-механик, но разработка веб-приложений мне интересна больше. В один
+                        прекрасный
+                        момент решил изучить это направление.</p>
+                    <p>Сейчас я — фронтенд-разработчик с опытом работы в индустрии. Я специализируюсь на создании
+                        функциональных
+                        и эстетичных веб-приложений, работая в тесном сотрудничестве с дизайнерами и другими разработчиками.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Основные навыки</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>Основные технологии веб-разработки</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Адаптивный и отзывчивый дизайн</h3>
+                    <ul>
+                        <li>Media Queries</li>
+                        <li>Flexbox и Grid</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Инструменты для сборки и автоматизации</h3>
+                    <ul>
+                        <li>Webpack</li>
+                        <li>Gulp</li>
+                        <li>npm</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Контроль версий</h3>
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Инструменты разработки и отладки</h3>
+                    <ul>
+                        <li>Браузерные инструменты разработчика
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Оптимизация производительности</h3>
+                    <ul>
+                        <li>Оптимизация скорости загрузки</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Межплатформенные навыки</h3>
+                    <ul>
+                        <li>Анализ кросс-браузерной совместимости</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" tabindex="0">Верстка главной страницы магазина Modimal</div>
+                    <div class="accordion-content">
+                        <img class="project-screen" src="img/Modimal.PNG" alt="Проект 1">
+
+                        <p> Адаптивная верстка главной страницы интернет-магазина одежды. На мобильной версии сайта
+                            присутствует бургер меню. <a class="link-project" href="https://joe18cm.github.io/Modimal/#"
+                                target="_blank"><span class="tooltip">Здесь<span class="tooltiptext">Открыть в новой вкладке</span></span></a> можно перейти на страничку с проектом.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" tabindex="0">Путеводитель по городу</div>
+                    <div class="accordion-content">
+                        <img class="project-screen" src="img/SPB.png" alt="Проект 1">
+
+                        <p> Сайт путеводитель по Санкт-Петербургу с анимацией. Разработает только при расширении 1366px. <a class="link-project" href="https://joe18cm.github.io/SPB/"
+                                target="_blank"><span class="tooltip">Здесь<span class="tooltiptext">Открыть в новой вкладке</span></span></a> можно перейти на страничку с проектом.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" tabindex="0">Игра в пары</div>
+                    <div class="accordion-content">
+                        <img class="project-screen" src="img/Paar.png" alt="Проект 1">
+
+                        <p>Аналог известной игры в пары. <a class="link-project" href="https://joe18cm.github.io/Paar-game/"
+                                target="_blank"><span class="tooltip">Здесь<span class="tooltiptext">Открыть в новой вкладке</span></span></a> можно перейти на страничку с проектом.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" tabindex="0">Верстка сайта для радио.</div>
+                    <div class="accordion-content">
+                        <img class="project-screen" src="img/wave.PNG" alt="Проект 1">
+
+                        <p>Адаптивная верстка с бургер меню для радио волны. <a class="link-project" href="https://joe18cm.github.io/wave/"
+                                target="_blank"><span class="tooltip">Здесь<span class="tooltiptext">Открыть в новой вкладке</span></span></a> можно перейти на страничку с проектом.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Отзывы</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" tabindex="0">Анна Кузнецова</div>
+                    <div class="accordion-content">
+                        <p>“Потрясающий опыт сотрудничества, результат превзошел ожидания!”</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" tabindex="0">Дмитрий Сидоров</div>
+                    <div class="accordion-content">
+                        <p>“Работа выполнена качественно и в срок, рекомендую!”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-block">
+                <ul>
+                    <li>
+                        <a href="https://t.me/Georgy_userm" target="_blank">
+                            <img src="img/telegram.svg" alt="Telegram"> @Georgy_user
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+79518486826">
+                            <img src="img/phone.svg" alt="Phone"> +7 (951) 848-6826
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:zhora1991@rambler.ru">
+                            <img src="img/email.svg" alt="Email"> zhora1991@rambler.ru
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Фронтенд Разработка</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</body>
+
+</html>
